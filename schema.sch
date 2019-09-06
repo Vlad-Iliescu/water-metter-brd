@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10834,7 +10834,83 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
 </package>
+<package name="MSOP10" urn="urn:adsk.eagle:footprint:3661277/1">
+<description>&lt;b&gt;10-Lead Mini Small Outline Package [MSOP]&lt;/b&gt; (RM-10)&lt;p&gt;
+Source: http://www.analog.com/UploadedFiles/Data_Sheets/35641221898805SSM2167_b.pdf&lt;br&gt;
+COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="0.8" x2="-0.5" y2="0.8" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-0.5" y1="0.8" x2="-1.1" y2="0.8" width="0.2032" layer="21"/>
+<smd name="1" x="-2.1131" y="1" dx="0.25" dy="1" layer="1" rot="R270"/>
+<smd name="2" x="-2.1131" y="0.5" dx="0.25" dy="1" layer="1" rot="R270"/>
+<smd name="3" x="-2.1131" y="0" dx="0.25" dy="1" layer="1" rot="R270"/>
+<smd name="4" x="-2.1131" y="-0.5" dx="0.25" dy="1" layer="1" rot="R270"/>
+<smd name="5" x="-2.1131" y="-1" dx="0.25" dy="1" layer="1" rot="R270"/>
+<smd name="6" x="2.1131" y="-1" dx="0.25" dy="1" layer="1" rot="R90"/>
+<smd name="7" x="2.1131" y="-0.5" dx="0.25" dy="1" layer="1" rot="R90"/>
+<smd name="8" x="2.1131" y="0" dx="0.25" dy="1" layer="1" rot="R90"/>
+<smd name="9" x="2.1131" y="0.5" dx="0.25" dy="1" layer="1" rot="R90"/>
+<smd name="10" x="2.1131" y="1" dx="0.25" dy="1" layer="1" rot="R90"/>
+<text x="-2.54" y="2.032" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="-2.125" y1="0.4994" x2="-1.875" y2="1.4994" layer="51" rot="R270"/>
+<rectangle x1="-2.125" y1="-0.0006" x2="-1.875" y2="0.9994" layer="51" rot="R270"/>
+<rectangle x1="-2.125" y1="-0.5006" x2="-1.875" y2="0.4994" layer="51" rot="R270"/>
+<rectangle x1="-2.125" y1="-1.0006" x2="-1.875" y2="-0.0006" layer="51" rot="R270"/>
+<rectangle x1="-2.125" y1="-1.5006" x2="-1.875" y2="-0.5006" layer="51" rot="R270"/>
+<rectangle x1="1.875" y1="-1.4994" x2="2.125" y2="-0.4994" layer="51" rot="R90"/>
+<rectangle x1="1.875" y1="-0.9994" x2="2.125" y2="0.0006" layer="51" rot="R90"/>
+<rectangle x1="1.875" y1="-0.4994" x2="2.125" y2="0.5006" layer="51" rot="R90"/>
+<rectangle x1="1.875" y1="0.0006" x2="2.125" y2="1.0006" layer="51" rot="R90"/>
+<rectangle x1="1.875" y1="0.5006" x2="2.125" y2="1.5006" layer="51" rot="R90"/>
+</package>
+<package name="C10418">
+<description>&lt;b&gt;SMD USB&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="1.3" y="-3" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="-3" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-3" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="-0.65" y="-3" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="-1.3" y="-3" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<pad name="MH1" x="-3.625" y="0.2" drill="1.76" diameter="2.64"/>
+<pad name="MH2" x="3.625" y="0.2" drill="1.76" diameter="2.64"/>
+<pad name="MH3" x="-2.425" y="-2.48" drill="0.7" diameter="1.2"/>
+<pad name="MH4" x="2.425" y="-2.48" drill="0.7" diameter="1.2"/>
+<text x="0" y="-0.4" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.4" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-2.74" width="0.2" layer="51"/>
+<wire x1="4" y1="-2.74" x2="-4" y2="-2.74" width="0.2" layer="51"/>
+<wire x1="-4" y1="-2.74" x2="-4" y2="3" width="0.2" layer="51"/>
+<wire x1="-5.945" y1="4" x2="5.945" y2="4" width="0.1" layer="51"/>
+<wire x1="5.945" y1="4" x2="5.945" y2="-4.8" width="0.1" layer="51"/>
+<wire x1="5.945" y1="-4.8" x2="-5.945" y2="-4.8" width="0.1" layer="51"/>
+<wire x1="-5.945" y1="-4.8" x2="-5.945" y2="4" width="0.1" layer="51"/>
+<wire x1="2" y1="-3.4" x2="2" y2="-3.4" width="0.1" layer="21"/>
+<wire x1="2" y1="-3.4" x2="2" y2="-3.5" width="0.1" layer="21" curve="180"/>
+<wire x1="2" y1="-3.5" x2="2" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="2" y1="-3.5" x2="2" y2="-3.4" width="0.1" layer="21" curve="180"/>
+<wire x1="-4" y1="-1.4" x2="-4" y2="-2.74" width="0.1" layer="21"/>
+<wire x1="-4" y1="-2.74" x2="-3.2" y2="-2.74" width="0.1" layer="21"/>
+<wire x1="4" y1="-1.4" x2="4" y2="-2.74" width="0.1" layer="21"/>
+<wire x1="4" y1="-2.74" x2="3.2" y2="-2.74" width="0.1" layer="21"/>
+<wire x1="-4" y1="1.8" x2="-4" y2="3" width="0.1" layer="21"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.1" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="1.8" width="0.1" layer="21"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="MSOP10" urn="urn:adsk.eagle:package:3661278/1" type="box">
+<description>&lt;b&gt;10-Lead Mini Small Outline Package [MSOP]&lt;/b&gt; (RM-10)&lt;p&gt;
+Source: http://www.analog.com/UploadedFiles/Data_Sheets/35641221898805SSM2167_b.pdf&lt;br&gt;
+COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
+<packageinstances>
+<packageinstance name="MSOP10"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="ESP-32S">
 <wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
@@ -10941,6 +11017,41 @@ wire to board 2.54 mm (0.100") pitch header</description>
 <pin name="NC" x="25.4" y="0" length="middle" direction="nc" rot="R180"/>
 <pin name="IN" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <pin name="EN" x="25.4" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="CH340E">
+<description>WCH.CN/CH340E 江苏沁恒股份有限公司 CH340E</description>
+<pin name="UD+" x="-13.97" y="10.16" length="middle"/>
+<pin name="UD-" x="-13.97" y="5.08" length="middle"/>
+<pin name="GND" x="-13.97" y="0" length="middle" direction="pwr"/>
+<pin name="RTS" x="-13.97" y="-5.08" length="middle" direction="out"/>
+<pin name="CTS" x="-13.97" y="-10.16" length="middle" direction="in"/>
+<pin name="TNOW" x="13.97" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="VCC" x="13.97" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="TX" x="13.97" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="RX" x="13.97" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="V3" x="13.97" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-8.89" y1="12.7" x2="-8.89" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-12.7" x2="8.89" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-12.7" x2="8.89" y2="12.7" width="0.254" layer="94"/>
+<wire x1="8.89" y1="12.7" x2="-8.89" y2="12.7" width="0.254" layer="94"/>
+<text x="-3.81" y="-15.24" size="1.778" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="C10418">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VBUS" x="0" y="0" length="middle"/>
+<pin name="D+" x="0" y="-2.54" length="middle"/>
+<pin name="GND" x="0" y="-5.08" length="middle"/>
+<pin name="MH2" x="0" y="-7.62" length="middle"/>
+<pin name="MH4" x="0" y="-10.16" length="middle"/>
+<pin name="D-" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="ID" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="MH1" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="MH3" x="25.4" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11099,6 +11210,71 @@ Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/Shenzhen-Suosemi-Tech-SX13
 <attribute name="HEIGHT" value="1.45mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Shenzhen Suosemi Tech" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SX1308" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CH340E" prefix="U">
+<description>WCH.CN/CH340E
+
+See DataSheet：
+&lt;a href = "http://www.wch.cn/downloads/CH340DS1_PDF.html"&gt;wch.cn&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CH340E" x="27.94" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="MSOP10">
+<connects>
+<connect gate="G$1" pin="CTS" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="RTS" pad="4"/>
+<connect gate="G$1" pin="RX" pad="9"/>
+<connect gate="G$1" pin="TNOW" pad="6"/>
+<connect gate="G$1" pin="TX" pad="8"/>
+<connect gate="G$1" pin="UD+" pad="1"/>
+<connect gate="G$1" pin="UD-" pad="2"/>
+<connect gate="G$1" pin="V3" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3661278/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C10418" prefix="J">
+<description>&lt;b&gt;USB Connectors SMD RoHS&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C10418" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C10418">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="MH1" pad="MH1"/>
+<connect gate="G$1" pin="MH2" pad="MH2"/>
+<connect gate="G$1" pin="MH3" pad="MH3"/>
+<connect gate="G$1" pin="MH4" pad="MH4"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="USB Connectors SMD RoHS" constant="no"/>
+<attribute name="HEIGHT" value="3.15mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Jing Extension of the Electronic Co." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C10418" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
@@ -11481,6 +11657,8 @@ Source: www.st.com, BAT60J.pdf</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1363"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF"/>
+<part name="U2" library="water-lib" deviceset="CH340E" device="SMD" package3d_urn="urn:adsk.eagle:package:3661278/1"/>
+<part name="J2" library="water-lib" deviceset="C10418" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11611,6 +11789,13 @@ Source: www.st.com, BAT60J.pdf</description>
 <attribute name="NAME" x="49.784" y="180.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="49.784" y="175.641" size="1.778" layer="96"/>
 </instance>
+<instance part="U2" gate="G$1" x="-22.86" y="40.64" smashed="yes">
+<attribute name="NAME" x="-26.67" y="25.4" size="1.778" layer="95"/>
+</instance>
+<instance part="J2" gate="G$1" x="-76.2" y="60.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="-68.58" y="39.37" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="-71.12" y="39.37" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11725,6 +11910,16 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="55.88" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="162.56" x2="48.26" y2="175.26" width="0.1524" layer="91"/>
 <junction x="55.88" y="162.56"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="-36.83" y1="40.64" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
+<label x="-43.18" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="-81.28" y1="60.96" x2="-81.28" y2="63.5" width="0.1524" layer="91"/>
+<label x="-81.28" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11844,6 +12039,52 @@ Source: www.st.com, BAT60J.pdf</description>
 <wire x1="48.26" y1="193.04" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
 <junction x="48.26" y="193.04"/>
 <label x="43.18" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="VBUS"/>
+<wire x1="-76.2" y1="60.96" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="-76.2" y="63.5" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="D+" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="UD+"/>
+<wire x1="-36.83" y1="50.8" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="50.8" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="71.12" x2="-78.74" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="D+"/>
+<wire x1="-78.74" y1="71.12" x2="-78.74" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D-" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="UD-"/>
+<wire x1="-36.83" y1="45.72" x2="-68.58" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="45.72" x2="-68.58" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="25.4" x2="-76.2" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="D-"/>
+<wire x1="-76.2" y1="25.4" x2="-76.2" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="ID"/>
+<wire x1="-78.74" y1="35.56" x2="-78.74" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="MH1"/>
+<pinref part="J2" gate="G$1" pin="MH3"/>
+<wire x1="-81.28" y1="35.56" x2="-83.82" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="35.56" x2="-93.98" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-83.82" y="35.56"/>
+<pinref part="J2" gate="G$1" pin="MH4"/>
+<wire x1="-93.98" y1="35.56" x2="-93.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="60.96" x2="-86.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="MH2"/>
+<wire x1="-86.36" y1="60.96" x2="-83.82" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-86.36" y="60.96"/>
 </segment>
 </net>
 </nets>
