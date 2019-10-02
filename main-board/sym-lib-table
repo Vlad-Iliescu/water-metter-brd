@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name water-lib)(type Legacy)(uri ${KIPRJMOD}/library/water-lib.lib)(options "")(descr ""))
+)

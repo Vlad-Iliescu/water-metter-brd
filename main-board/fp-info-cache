@@ -1,0 +1,57 @@
+12560049920903
+water-lib
+C10418
+SMD USB
+Connector
+0
+9
+9
+water-lib
+CH340E-MSOP-10
+
+
+0
+10
+10
+water-lib
+ESP-32S
+ESP-32s
+Undefined or Miscellaneous
+0
+38
+38
+water-lib
+ESP32
+
+
+0
+49
+49
+water-lib
+ESP32-WROOM
+
+
+0
+39
+39
+water-lib
+ESP3212
+
+
+0
+31
+30
+water-lib
+FH12-24S-0.5SH(55)
+FH12-24S-0.5SH(55)
+Connector
+0
+26
+26
+water-lib
+SMD0805-020-16V
+Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
