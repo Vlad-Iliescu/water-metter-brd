@@ -113,6 +113,25 @@ X ~ 2 0 -250 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# water-lib_Battery_Holder
+#
+DEF water-lib_Battery_Holder BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "water-lib_Battery_Holder" 100 0 50 H V L CNN
+F2 "water-lib:Battery Holder SMD" -170 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 w
+X - 2 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # water-lib_C10418
 #
 DEF water-lib_C10418 J 0 30 Y Y 1 F N
@@ -278,7 +297,7 @@ ENDDEF
 DEF water-lib_SMD0805-020-16V F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
 F1 "water-lib_SMD0805-020-16V" -75 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
+F2 "water-lib:SMD0805-020-16V" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "C99561" -150 0 50 V I C CNN "LCSC"
 $FPLIST

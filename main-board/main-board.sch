@@ -518,10 +518,10 @@ Wire Wire Line
 Text Label 1600 5630 1    50   ~ 0
 VCC
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 5D9C0A97
 P 1700 6200
-F 0 "#PWR?" H 1700 5950 50  0001 C CNN
+F 0 "#PWR015" H 1700 5950 50  0001 C CNN
 F 1 "GND" H 1705 6027 50  0000 C CNN
 F 2 "" H 1700 6200 50  0001 C CNN
 F 3 "" H 1700 6200 50  0001 C CNN
@@ -534,4 +534,15 @@ Connection ~ 1700 6100
 Wire Wire Line
 	1700 6000 1700 5900
 Connection ~ 1700 6000
+$Comp
+L water-lib:Battery_Holder BT1
+U 1 1 5D9F0EFE
+P 7760 1790
+F 0 "BT1" H 7878 1886 50  0000 L CNN
+F 1 "Battery_Holder" H 7878 1795 50  0000 L CNN
+F 2 "water-lib:Battery Holder SMD" V 7590 1850 50  0001 C CNN
+F 3 "~" V 7760 1850 50  0001 C CNN
+	1    7760 1790
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
