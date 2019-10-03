@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name water-lib)(type Legacy)(uri ${KIPRJMOD}/library/water-lib.lib)(options "")(descr ""))
+  (lib (name main-board-rescue)(type Legacy)(uri ${KIPRJMOD}/main-board-rescue.lib)(options "")(descr ""))
 )

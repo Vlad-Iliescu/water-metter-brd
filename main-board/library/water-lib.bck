@@ -6,9 +6,21 @@ K fuse
 F https://datasheet.lcsc.com/szlcsc/Littelfuse-1206L025YR_C99561.pdf
 $ENDCMP
 #
+$CMP Battery_Holder
+D BATTERY HOLDER 18650 SMD
+K battery holder smd
+F ~
+$ENDCMP
+#
 $CMP C10418
 D USB Connectors SMD RoHS
 F https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf
+$ENDCMP
+#
+$CMP CH340E
+D USB to Serial connector
+K usb serial
+F http://www.wch.cn/download/CH340DS1_PDF.html
 $ENDCMP
 #
 $CMP ESP-32s
@@ -25,6 +37,10 @@ $CMP HT7333-A
 D 1A Low Dropout regulator, positive, adjustable output, TO-252
 K linear regulator ldo fixed positive
 F https://datasheet.lcsc.com/szlcsc/Holtek-Semicon-HT7333-A_C21583.pdf
+$ENDCMP
+#
+$CMP IPS6404L-SQ-SPN
+F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
 $ENDCMP
 #
 $CMP SMD0805-020-16V

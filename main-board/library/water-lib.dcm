@@ -23,6 +23,11 @@ K usb serial
 F http://www.wch.cn/download/CH340DS1_PDF.html
 $ENDCMP
 #
+$CMP DW06D
+D Lithium battery protection chip
+F https://www.alldatasheet.com/datasheet-pdf/pdf/1143790/FUMAN/DW06D.html
+$ENDCMP
+#
 $CMP ESP-32s
 D WiFi-BT-BLE MCU module
 F http://en.ai-thinker.com/esp32/spec/esp32s
@@ -40,6 +45,8 @@ F https://datasheet.lcsc.com/szlcsc/Holtek-Semicon-HT7333-A_C21583.pdf
 $ENDCMP
 #
 $CMP IPS6404L-SQ-SPN
+D IPS6404L-SQ-SPN, 64Mbit  3.3V, SO08 package, product from IPUS.
+K psram
 F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
 $ENDCMP
 #
@@ -47,6 +54,12 @@ $CMP SMD0805-020-16V
 D Fuse
 K fuse
 F https://datasheet.lcsc.com/szlcsc/TECHFUSE-SMD0805-020-16V_C70057.pdf
+$ENDCMP
+#
+$CMP SX1308
+D Lithium battery protection chip
+K DC-DC Converters Step-Up Adjustable
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Suosemi-Tech-SX1308_C78162.pdf
 $ENDCMP
 #
 #End Doc Library
