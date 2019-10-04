@@ -50,6 +50,12 @@ K psram
 F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
 $ENDCMP
 #
+$CMP RT9011-CMGJ6
+D Portable Power Management 300mA Dual LDO Regulator
+K DC-DC Converters Step-Up Adjustable
+F https://datasheet.lcsc.com/szlcsc/Richtek-Tech-RT9011-CMGJ6_C131424.pdf
+$ENDCMP
+#
 $CMP SMD0805-020-16V
 D Fuse
 K fuse
