@@ -1637,4 +1637,120 @@ F 3 "" H 7290 4570 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7290 4570 7290 4630
+Wire Wire Line
+	5610 2440 5960 2440
+Wire Wire Line
+	5610 2540 5960 2540
+Text Label 5800 2440 0    50   ~ 0
+TX
+Text Label 5810 2540 0    50   ~ 0
+RX
+Wire Wire Line
+	5610 1540 5980 1540
+Text Label 5780 1540 0    50   ~ 0
+IO0
+$Comp
+L Device:Q_NPN_BCE Q1
+U 1 1 5D9CDA07
+P 2740 6850
+F 0 "Q1" H 2931 6896 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 2931 6805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2940 6950 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Transistors-NPN-PNP_BC847B_C181140.html" H 2740 6850 50  0001 C CNN
+F 4 "C181140" H 2740 6850 50  0001 C CNN "LCSC"
+	1    2740 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q2
+U 1 1 5D9CE8C6
+P 2740 7440
+F 0 "Q2" H 2931 7486 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 2931 7395 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2940 7540 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Transistors-NPN-PNP_BC847B_C181140.html" H 2740 7440 50  0001 C CNN
+F 4 "C181140" H 2740 7440 50  0001 C CNN "LCSC"
+	1    2740 7440
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R R20
+U 1 1 5D9D3A82
+P 2200 7440
+F 0 "R20" V 2100 7440 50  0000 C CNN
+F 1 "10k" V 2200 7440 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 7440 50  0001 C CNN
+F 3 "~" H 2200 7440 50  0001 C CNN
+	1    2200 7440
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:R R19
+U 1 1 5D9D15D2
+P 2200 6850
+F 0 "R19" V 2100 6850 50  0000 C CNN
+F 1 "10k" V 2200 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6850 50  0001 C CNN
+F 3 "~" H 2200 6850 50  0001 C CNN
+	1    2200 6850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 6850 1700 6850
+Wire Wire Line
+	1950 7440 1850 7440
+Text Label 1700 6850 0    50   ~ 0
+RTS
+Text Label 1690 7440 0    50   ~ 0
+CTS
+Wire Wire Line
+	2450 6850 2540 6850
+Wire Wire Line
+	2840 6650 3130 6650
+Text Label 3010 6650 0    50   ~ 0
+IO0
+Text Label 2960 7640 0    50   ~ 0
+EN
+Wire Wire Line
+	2840 7640 3210 7640
+Connection ~ 1950 6850
+Wire Wire Line
+	2450 7440 2540 7440
+Wire Wire Line
+	1950 7150 2840 7150
+Wire Wire Line
+	2840 7150 2840 7240
+Wire Wire Line
+	1950 6850 1950 7150
+Wire Wire Line
+	2840 7050 1850 7050
+Wire Wire Line
+	1850 7050 1850 7440
+Connection ~ 1850 7440
+Wire Wire Line
+	1850 7440 1690 7440
+$Comp
+L water-lib:TF-01A J3
+U 1 1 5D9D5E7E
+P 2310 3530
+F 0 "J3" H 2260 4255 50  0000 C CNN
+F 1 "TF-01A" H 2260 4164 50  0000 C CNN
+F 2 "water-lib:TF-01A" H 3460 3830 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts-Elec-TF-01A_C91145.pdf" H 2310 3530 50  0001 C CNN
+F 4 "C91145" H 2310 3530 50  0001 C CNN "LCSC"
+	1    2310 3530
+	1    0    0    -1  
+$EndComp
+$Comp
+L water-lib:SN74LVC125ADBR U8
+U 1 1 5DA00509
+P 3950 3730
+F 0 "U8" H 3950 4511 50  0000 C CNN
+F 1 "SN74LVC125ADBR" H 3950 4420 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4900 3180 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74LVC125ADBR_C7812.pdf" H 3950 3730 50  0001 C CNN
+F 4 "C7812" H 4200 3280 50  0001 C CNN "LCSC"
+	1    3950 3730
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

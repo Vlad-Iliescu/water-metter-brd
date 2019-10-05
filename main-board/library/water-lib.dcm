@@ -62,10 +62,22 @@ K fuse
 F https://datasheet.lcsc.com/szlcsc/TECHFUSE-SMD0805-020-16V_C70057.pdf
 $ENDCMP
 #
+$CMP SN74LVC125ADBR
+D QUADRUPLE BUS BUFFER GATE
+K TTL Buffer 3State BUS BIDI
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74LVC125ADBR_C7812.pdf
+$ENDCMP
+#
 $CMP SX1308
 D Lithium battery protection chip
 K DC-DC Converters Step-Up Adjustable
 F https://datasheet.lcsc.com/szlcsc/Shenzhen-Suosemi-Tech-SX1308_C78162.pdf
+$ENDCMP
+#
+$CMP TF-01A
+D Micro SD Card Socket
+K connector SD microsd
+F https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts-Elec-TF-01A_C91145.pdf
 $ENDCMP
 #
 #End Doc Library
