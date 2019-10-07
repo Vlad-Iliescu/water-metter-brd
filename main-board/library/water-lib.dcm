@@ -38,6 +38,12 @@ D HIROSE(HRS) - FH12-24S-0.5SH(55) - SOCKET FFC/FPC, ZIF, 0.5MM, 24WAY
 F https://datasheet.lcsc.com/szlcsc/Hirose-HRS-FH12-24S-0-5SH-55_C202112.pdf
 $ENDCMP
 #
+$CMP HQ67-2100IRC
+D Light emitting diode, filled shape
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/HARVATEK-HQ67-2100IRC_C258876.pdf
+$ENDCMP
+#
 $CMP HT7333-A
 D 1A Low Dropout regulator, positive, adjustable output, TO-252
 K linear regulator ldo fixed positive
@@ -45,6 +51,12 @@ F https://datasheet.lcsc.com/szlcsc/Holtek-Semicon-HT7333-A_C21583.pdf
 $ENDCMP
 #
 $CMP IPS6404L-SQ-SPN
+D IPS6404L-SQ-SPN, 64Mbit  3.3V, SO08 package, product from IPUS.
+K psram
+F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
+$ENDCMP
+#
+$CMP MAX1704X
 D IPS6404L-SQ-SPN, 64Mbit  3.3V, SO08 package, product from IPUS.
 K psram
 F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf

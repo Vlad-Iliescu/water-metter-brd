@@ -2089,18 +2089,6 @@ Wire Wire Line
 Text Label 7320 3760 0    50   ~ 0
 IO13
 $Comp
-L Device:LED D6
-U 1 1 5DA76080
-P 8410 3310
-F 0 "D6" V 8449 3193 50  0000 R CNN
-F 1 "LED" V 8358 3193 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 8410 3310 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Vishay-Intertech-TSAL6100_C111836.pdf" H 8410 3310 50  0001 C CNN
-F 4 "C111836" V 8410 3310 50  0001 C CNN "LCSC"
-	1    8410 3310
-	0    -1   -1   0   
-$EndComp
-$Comp
 L pspice:R R26
 U 1 1 5DA790E1
 P 8410 4280
@@ -2211,4 +2199,109 @@ Wire Wire Line
 	5610 1340 5960 1340
 Wire Wire Line
 	5610 1440 5960 1440
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 5DC5DFE6
+P 7670 2050
+F 0 "Q4" H 7876 2096 50  0000 L CNN
+F 1 "DMG1012T" H 7876 2005 50  0000 L CNN
+F 2 "water-lib:SOT-523" H 7870 2150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-DMG1012T-7_C20512.pdf" H 7670 2050 50  0001 C CNN
+F 4 "C20512" H 7670 2050 50  0001 C CNN "LCSC"
+	1    7670 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R R27
+U 1 1 5DC622A1
+P 7770 1560
+F 0 "R27" V 7670 1560 50  0000 C CNN
+F 1 "27k" V 7770 1560 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7770 1560 50  0001 C CNN
+F 3 "~" H 7770 1560 50  0001 C CNN
+	1    7770 1560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7770 1310 7770 1060
+Wire Wire Line
+	7770 1810 7770 1850
+Text Label 7770 1240 1    50   ~ 0
+VBAT
+Wire Wire Line
+	7470 2050 7170 2050
+Wire Wire Line
+	4110 1840 3710 1840
+Text Label 3710 1840 0    50   ~ 0
+BAT_ST
+Text Label 7170 2050 0    50   ~ 0
+BAT_ST
+Wire Wire Line
+	4110 1740 3720 1740
+Text Label 3720 1740 0    50   ~ 0
+IO32
+Text Label 8160 2280 0    50   ~ 0
+IO32
+$Comp
+L pspice:R R28
+U 1 1 5DCE7D22
+P 7770 2530
+F 0 "R28" V 7670 2530 50  0000 C CNN
+F 1 "10k" V 7770 2530 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7770 2530 50  0001 C CNN
+F 3 "~" H 7770 2530 50  0001 C CNN
+	1    7770 2530
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 5DCE8734
+P 7770 2820
+F 0 "#PWR055" H 7770 2570 50  0001 C CNN
+F 1 "GND" H 7775 2647 50  0000 C CNN
+F 2 "" H 7770 2820 50  0001 C CNN
+F 3 "" H 7770 2820 50  0001 C CNN
+	1    7770 2820
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5DCE9114
+P 8060 2540
+F 0 "C19" H 7930 2630 50  0000 L CNN
+F 1 "1uF" H 7830 2460 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8098 2390 50  0001 C CNN
+F 3 "~" H 8060 2540 50  0001 C CNN
+	1    8060 2540
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7770 2250 7770 2280
+Wire Wire Line
+	7770 2780 7770 2820
+Wire Wire Line
+	7770 2280 8060 2280
+Wire Wire Line
+	8060 2280 8060 2390
+Connection ~ 7770 2280
+Wire Wire Line
+	8060 2690 8060 2780
+Wire Wire Line
+	8060 2780 7770 2780
+Connection ~ 7770 2780
+Wire Wire Line
+	8060 2280 8330 2280
+Connection ~ 8060 2280
+$Comp
+L water-lib:HQ67-2100IRC D6
+U 1 1 5DD8FA79
+P 8410 3310
+F 0 "D6" V 8449 3193 50  0000 R CNN
+F 1 "HQ67-2100IRC" V 8358 3193 50  0000 R CNN
+F 2 "water-lib:HQ67-2100IRC" H 8410 2960 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/HARVATEK-HQ67-2100IRC_C258876.pdf" H 8410 3310 50  0001 C CNN
+F 4 "C258876" H 8410 3060 50  0001 C CNN "LCSC"
+	1    8410 3310
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
