@@ -2304,4 +2304,207 @@ F 4 "C258876" H 8410 3060 50  0001 C CNN "LCSC"
 	1    8410 3310
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D9F8791
+P 6280 6350
+F 0 "H4" H 6380 6396 50  0000 L CNN
+F 1 "MountingHole" H 6380 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6280 6350 50  0001 C CNN
+F 3 "~" H 6280 6350 50  0001 C CNN
+	1    6280 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DA135E4
+P 6270 6600
+F 0 "H1" H 6370 6646 50  0000 L CNN
+F 1 "MountingHole" H 6370 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6270 6600 50  0001 C CNN
+F 3 "~" H 6270 6600 50  0001 C CNN
+	1    6270 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DA1392B
+P 6270 6840
+F 0 "H2" H 6370 6886 50  0000 L CNN
+F 1 "MountingHole" H 6370 6795 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6270 6840 50  0001 C CNN
+F 3 "~" H 6270 6840 50  0001 C CNN
+	1    6270 6840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DA13B73
+P 6270 7080
+F 0 "H3" H 6370 7126 50  0000 L CNN
+F 1 "MountingHole" H 6370 7035 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6270 7080 50  0001 C CNN
+F 3 "~" H 6270 7080 50  0001 C CNN
+	1    6270 7080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DA2FB24
+P 710 5880
+F 0 "TP3" V 780 6050 50  0000 R CNN
+F 1 "GND" V 620 6050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 910 5880 50  0001 C CNN
+F 3 "~" H 910 5880 50  0001 C CNN
+	1    710  5880
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5DA9028F
+P 710 6160
+F 0 "TP4" V 780 6330 50  0000 R CNN
+F 1 "+5V" V 620 6330 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 910 6160 50  0001 C CNN
+F 3 "~" H 910 6160 50  0001 C CNN
+	1    710  6160
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5DA90A60
+P 710 6430
+F 0 "TP5" V 780 6600 50  0000 R CNN
+F 1 "+3.3V" V 620 6600 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 910 6430 50  0001 C CNN
+F 3 "~" H 910 6430 50  0001 C CNN
+	1    710  6430
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5DA90FD1
+P 710 6690
+F 0 "TP6" V 780 6860 50  0000 R CNN
+F 1 "+3V3" V 620 6860 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 910 6690 50  0001 C CNN
+F 3 "~" H 910 6690 50  0001 C CNN
+	1    710  6690
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5DA913A0
+P 710 6980
+F 0 "TP7" V 780 7150 50  0000 R CNN
+F 1 "+1V2" V 620 7150 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 910 6980 50  0001 C CNN
+F 3 "~" H 910 6980 50  0001 C CNN
+	1    710  6980
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 5DA91749
+P 760 5880
+F 0 "#PWR056" H 760 5630 50  0001 C CNN
+F 1 "GND" H 765 5707 50  0000 C CNN
+F 2 "" H 760 5880 50  0001 C CNN
+F 3 "" H 760 5880 50  0001 C CNN
+	1    760  5880
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR057
+U 1 1 5DA92174
+P 760 6160
+F 0 "#PWR057" H 760 6010 50  0001 C CNN
+F 1 "+5V" H 775 6333 50  0000 C CNN
+F 2 "" H 760 6160 50  0001 C CNN
+F 3 "" H 760 6160 50  0001 C CNN
+	1    760  6160
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR058
+U 1 1 5DA9346E
+P 780 6430
+F 0 "#PWR058" H 780 6280 50  0001 C CNN
+F 1 "VCC" H 797 6603 50  0000 C CNN
+F 2 "" H 780 6430 50  0001 C CNN
+F 3 "" H 780 6430 50  0001 C CNN
+	1    780  6430
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR059
+U 1 1 5DA94330
+P 790 6690
+F 0 "#PWR059" H 790 6540 50  0001 C CNN
+F 1 "+3V3" H 805 6863 50  0000 C CNN
+F 2 "" H 790 6690 50  0001 C CNN
+F 3 "" H 790 6690 50  0001 C CNN
+	1    790  6690
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V2 #PWR060
+U 1 1 5DA9596A
+P 810 6980
+F 0 "#PWR060" H 810 6830 50  0001 C CNN
+F 1 "+1V2" H 825 7153 50  0000 C CNN
+F 2 "" H 810 6980 50  0001 C CNN
+F 3 "" H 810 6980 50  0001 C CNN
+	1    810  6980
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DA972FE
+P 700 7250
+F 0 "TP1" V 770 7420 50  0000 R CNN
+F 1 "+2V8" V 610 7420 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 900 7250 50  0001 C CNN
+F 3 "~" H 900 7250 50  0001 C CNN
+	1    700  7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+2V8 #PWR061
+U 1 1 5DA979D8
+P 810 7250
+F 0 "#PWR061" H 810 7100 50  0001 C CNN
+F 1 "+2V8" H 825 7423 50  0000 C CNN
+F 2 "" H 810 7250 50  0001 C CNN
+F 3 "" H 810 7250 50  0001 C CNN
+	1    810  7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	710  5880 760  5880
+Wire Wire Line
+	710  6160 760  6160
+Wire Wire Line
+	710  6430 780  6430
+Wire Wire Line
+	710  6690 790  6690
+Wire Wire Line
+	710  6980 810  6980
+Wire Wire Line
+	700  7250 810  7250
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DB4294C
+P 700 7510
+F 0 "TP2" V 770 7680 50  0000 R CNN
+F 1 "VBAT" V 610 7680 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 900 7510 50  0001 C CNN
+F 3 "~" H 900 7510 50  0001 C CNN
+	1    700  7510
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	700  7510 900  7510
+Text Label 730  7510 0    50   ~ 0
+VBAT
 $EndSCHEMATC
