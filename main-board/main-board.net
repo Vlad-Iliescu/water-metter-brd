@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/viliescu/dev/water-metter-brd/main-board/main-board.sch)
-    (date "Tuesday 08 October 2019 at 16:33:26")
+    (date "Tuesday 08 October 2019 at 18:02:27")
     (tool "Eeschema (5.1.4-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -52,6 +52,7 @@
       (fields
         (field (name Description) "USB Connectors SMD RoHS")
         (field (name Height) 3.15)
+        (field (name LCSC) C10418)
         (field (name Manufacturer_Name) "Jing Extension of the Electronic Co.")
         (field (name Manufacturer_Part_Number) C10418))
       (libsource (lib water-lib) (part C10418) (description "USB Connectors SMD RoHS"))
@@ -70,6 +71,8 @@
       (value 10uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C15850))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D96C19D))
@@ -77,6 +80,8 @@
       (value 10uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C15850))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D970E64))
@@ -84,6 +89,8 @@
       (value LED)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C94691))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D971B68))
@@ -98,6 +105,8 @@
       (value LED)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C94691))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D978C4B))
@@ -112,6 +121,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1790))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D98B76A))
@@ -119,6 +130,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1790))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D98C605))
@@ -126,6 +139,8 @@
       (value LED)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C94691))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D99ADAA))
@@ -133,6 +148,8 @@
       (value LED)
       (footprint LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C94691))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D99B8C3))
@@ -154,6 +171,8 @@
       (value Battery_Holder)
       (footprint water-lib:Battery-Holder-SMD)
       (datasheet ~)
+      (fields
+        (field (name Aliexpress) https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20191008062912&SearchText=battery+holder+18650+smd&switch_new_app=y))
       (libsource (lib water-lib) (part Battery_Holder) (description "BATTERY HOLDER 18650 SMD"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9673E5))
@@ -186,6 +205,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1790))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D98FDCA))
@@ -216,13 +237,17 @@
       (value 22uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C5674))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9C2BBA))
     (comp (ref L1)
       (value 22uH)
-      (footprint Inductor_SMD:L_6.3x6.3_H3)
+      (footprint Inductor_SMD:L_7.3x7.3_H3.5)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C237916))
       (libsource (lib Device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9D4658))
@@ -244,6 +269,8 @@
       (value 22uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C5674))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9DD058))
@@ -265,6 +292,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C24123))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9BE3F5))
@@ -281,6 +310,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C24123))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9F41DF))
@@ -302,6 +333,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C24123))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DA1961C))
@@ -309,6 +342,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C24123))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DA1A12F))
@@ -316,6 +351,8 @@
       (value 15pF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1794))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DAE6501))
@@ -323,6 +360,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1790))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DB00F76))
@@ -374,6 +413,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C24123))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DC5FC53))
@@ -459,6 +500,8 @@
       (value 10uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C15850))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DB7C086))
@@ -466,6 +509,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1790))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DB7CBD3))
@@ -480,6 +525,8 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1790))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DC33B14))
@@ -554,6 +601,8 @@
       (value 1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C24123))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DCE9114))
