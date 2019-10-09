@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -510,4 +510,23 @@ Text HLabel 5110 2100 0    50   Input ~ 0
 START_READ
 Text HLabel 6270 2330 2    50   Output ~ 0
 BATTERY_READ
+Text Label 1680 2080 2    50   ~ 0
+BAT_GND
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5DA11FCB
+P 5160 4270
+AR Path="/5DA11FCB" Ref="TP?"  Part="1" 
+AR Path="/5DC2722E/5DA11FCB" Ref="TP301"  Part="1" 
+F 0 "TP301" V 5230 4440 50  0000 R CNN
+F 1 "VBAT" V 5070 4440 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5360 4270 50  0001 C CNN
+F 3 "~" H 5360 4270 50  0001 C CNN
+	1    5160 4270
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5160 4270 5360 4270
+Text Label 5190 4270 0    50   ~ 0
+VBAT
 $EndSCHEMATC
