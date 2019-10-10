@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 37)
     (tracks 890)
     (zones 0)
     (modules 83)
@@ -3415,6 +3415,18 @@
     )
   )
 
+  (dimension 100.951003 (width 0.12) (layer F.Fab)
+    (gr_text "100.951 mm" (at 75.179479 90.285901 270.3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 145.15 140.45) (xy 76.088051 140.757854)))
+    (feature2 (pts (xy 144.7 39.5) (xy 75.638051 39.807854)))
+    (crossbar (pts (xy 76.224466 39.80524) (xy 76.674466 140.75524)))
+    (arrow1a (pts (xy 76.674466 140.75524) (xy 76.08303 139.631361)))
+    (arrow1b (pts (xy 76.674466 140.75524) (xy 77.255859 139.626133)))
+    (arrow2a (pts (xy 76.224466 39.80524) (xy 75.643073 40.934347)))
+    (arrow2b (pts (xy 76.224466 39.80524) (xy 76.815902 40.929119)))
+  )
   (gr_text "CAM VCC" (at 157.2 108.7 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
