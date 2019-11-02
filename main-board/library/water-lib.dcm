@@ -62,6 +62,10 @@ K psram
 F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
 $ENDCMP
 #
+$CMP MT3608
+F https://datasheet.lcsc.com/szlcsc/1811151539_XI-AN-Aerosemi-Tech-MT3608_C84817.pdf
+$ENDCMP
+#
 $CMP RT9011-CMGJ6
 D Portable Power Management 300mA Dual LDO Regulator
 K DC-DC Converters Step-Up Adjustable
@@ -84,6 +88,10 @@ $CMP SX1308
 D Lithium battery protection chip
 K DC-DC Converters Step-Up Adjustable
 F https://datasheet.lcsc.com/szlcsc/Shenzhen-Suosemi-Tech-SX1308_C78162.pdf
+$ENDCMP
+#
+$CMP TC4056A
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/1132360/ADMOS/TC4056A.html
 $ENDCMP
 #
 $CMP TF-01A

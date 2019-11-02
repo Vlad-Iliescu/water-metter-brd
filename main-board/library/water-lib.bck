@@ -38,6 +38,12 @@ D HIROSE(HRS) - FH12-24S-0.5SH(55) - SOCKET FFC/FPC, ZIF, 0.5MM, 24WAY
 F https://datasheet.lcsc.com/szlcsc/Hirose-HRS-FH12-24S-0-5SH-55_C202112.pdf
 $ENDCMP
 #
+$CMP HQ67-2100IRC
+D Light emitting diode, filled shape
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/HARVATEK-HQ67-2100IRC_C258876.pdf
+$ENDCMP
+#
 $CMP HT7333-A
 D 1A Low Dropout regulator, positive, adjustable output, TO-252
 K linear regulator ldo fixed positive
@@ -48,6 +54,16 @@ $CMP IPS6404L-SQ-SPN
 D IPS6404L-SQ-SPN, 64Mbit  3.3V, SO08 package, product from IPUS.
 K psram
 F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
+$ENDCMP
+#
+$CMP MAX1704X
+D IPS6404L-SQ-SPN, 64Mbit  3.3V, SO08 package, product from IPUS.
+K psram
+F https://github.com/Edragon/Datasheet/blob/master/IPUS/IPUS%2064Mbit.pdf
+$ENDCMP
+#
+$CMP MT3608
+F https://datasheet.lcsc.com/szlcsc/1811151539_XI-AN-Aerosemi-Tech-MT3608_C84817.pdf
 $ENDCMP
 #
 $CMP RT9011-CMGJ6
@@ -63,15 +79,25 @@ F https://datasheet.lcsc.com/szlcsc/TECHFUSE-SMD0805-020-16V_C70057.pdf
 $ENDCMP
 #
 $CMP SN74LVC125ADBR
-D 4-bit Bus Tranceiver
+D QUADRUPLE BUS BUFFER GATE
 K TTL Buffer 3State BUS BIDI
-F http://www.ti.com/lit/gpn/sn74LS243
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74LVC125ADBR_C7812.pdf
 $ENDCMP
 #
 $CMP SX1308
 D Lithium battery protection chip
 K DC-DC Converters Step-Up Adjustable
 F https://datasheet.lcsc.com/szlcsc/Shenzhen-Suosemi-Tech-SX1308_C78162.pdf
+$ENDCMP
+#
+$CMP TC4056A
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/1132360/ADMOS/TC4056A.html
+$ENDCMP
+#
+$CMP TF-01A
+D Micro SD Card Socket
+K connector SD microsd
+F https://datasheet.lcsc.com/szlcsc/1903221101_Korean-Hroparts-Elec-TF-01A_C91145.pdf
 $ENDCMP
 #
 #End Doc Library

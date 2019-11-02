@@ -556,4 +556,218 @@ F 3 "" H 1520 5820 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1440 5820 1520 5820
+Text HLabel 2610 5330 0    50   Input ~ 0
++5V
+$Comp
+L water-lib:TC4056A U403
+U 1 1 5DBA0D54
+P 3810 5800
+F 0 "U403" H 3835 6125 50  0000 C CNN
+F 1 "TC4056A" H 3835 6034 50  0000 C CNN
+F 2 "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias" H 3910 5250 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.com/datasheet-pdf/view/1132360/ADMOS/TC4056A.html" H 3960 5350 50  0001 C CNN
+F 4 "C84051" H 3960 6000 50  0001 C CNN "LCSC"
+	1    3810 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4210 5700 4210 5330
+Wire Wire Line
+	2750 5330 2610 5330
+Connection ~ 2750 5330
+Wire Wire Line
+	2750 5330 2750 6000
+Wire Wire Line
+	2840 5700 2840 5800
+$Comp
+L pspice:R R?
+U 1 1 5DBBA65B
+P 3160 5800
+AR Path="/5DBBA65B" Ref="R?"  Part="1" 
+AR Path="/5DC2722E/5DBBA65B" Ref="R408"  Part="1" 
+F 0 "R408" V 3090 5800 50  0000 C CNN
+F 1 "1k2" V 3160 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3160 5800 50  0001 C CNN
+F 3 "~" H 3160 5800 50  0001 C CNN
+F 4 "C180849" H 3160 5800 50  0001 C CNN "LCSC"
+	1    3160 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2840 5900 3460 5900
+Wire Wire Line
+	3460 5800 3410 5800
+Wire Wire Line
+	2910 5800 2840 5800
+Connection ~ 2840 5800
+Wire Wire Line
+	2840 5800 2840 5900
+Wire Wire Line
+	2840 5700 3460 5700
+Wire Wire Line
+	2750 6000 3320 6000
+Wire Wire Line
+	2750 5330 3700 5330
+$Comp
+L Device:LED D?
+U 1 1 5DBCED7D
+P 4320 5080
+AR Path="/5DBCED7D" Ref="D?"  Part="1" 
+AR Path="/5DA658CB/5DBCED7D" Ref="D?"  Part="1" 
+AR Path="/5DC2722E/5DBCED7D" Ref="D402"  Part="1" 
+F 0 "D402" H 4313 5205 50  0000 C CNN
+F 1 "RED" H 4313 5205 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4320 5080 50  0001 C CNN
+F 3 "~" H 4320 5080 50  0001 C CNN
+F 4 "C94691" H 4320 5080 50  0001 C CNN "LCSC"
+	1    4320 5080
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DBD0159
+P 4470 5170
+AR Path="/5DBD0159" Ref="D?"  Part="1" 
+AR Path="/5DA658CB/5DBD0159" Ref="D?"  Part="1" 
+AR Path="/5DC2722E/5DBD0159" Ref="D403"  Part="1" 
+F 0 "D403" H 4480 5070 50  0000 C CNN
+F 1 "GREEN" H 4463 5295 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4470 5170 50  0001 C CNN
+F 3 "~" H 4470 5170 50  0001 C CNN
+F 4 "C94691" H 4470 5170 50  0001 C CNN "LCSC"
+	1    4470 5170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:R R?
+U 1 1 5DBD06A0
+P 4320 5550
+AR Path="/5DBD06A0" Ref="R?"  Part="1" 
+AR Path="/5DC2722E/5DBD06A0" Ref="R409"  Part="1" 
+F 0 "R409" V 4250 5550 50  0000 C CNN
+F 1 "1k2" V 4320 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4320 5550 50  0001 C CNN
+F 3 "~" H 4320 5550 50  0001 C CNN
+F 4 "C180849" H 4320 5550 50  0001 C CNN "LCSC"
+	1    4320 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R R?
+U 1 1 5DBD1E58
+P 4470 5650
+AR Path="/5DBD1E58" Ref="R?"  Part="1" 
+AR Path="/5DC2722E/5DBD1E58" Ref="R410"  Part="1" 
+F 0 "R410" V 4400 5650 50  0000 C CNN
+F 1 "1k2" V 4470 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4470 5650 50  0001 C CNN
+F 3 "~" H 4470 5650 50  0001 C CNN
+F 4 "C180849" H 4470 5650 50  0001 C CNN "LCSC"
+	1    4470 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4210 5800 4320 5800
+Wire Wire Line
+	4210 5900 4470 5900
+Wire Wire Line
+	4320 5300 4320 5230
+Wire Wire Line
+	4470 5400 4470 5320
+Wire Wire Line
+	4470 5020 4470 4930
+Wire Wire Line
+	4470 4930 4320 4930
+Wire Wire Line
+	3700 4930 3700 5330
+Connection ~ 4320 4930
+Wire Wire Line
+	4320 4930 3700 4930
+Connection ~ 3700 5330
+Wire Wire Line
+	3700 5330 4210 5330
+Wire Wire Line
+	4210 6000 4280 6000
+Text Label 4280 6000 0    50   ~ 0
+VBAT
+$Comp
+L power:GND #PWR?
+U 1 1 5DBE55E4
+P 2840 5700
+AR Path="/5DBE55E4" Ref="#PWR?"  Part="1" 
+AR Path="/5DC2722E/5DBE55E4" Ref="#PWR0408"  Part="1" 
+F 0 "#PWR0408" H 2840 5450 50  0001 C CNN
+F 1 "GND" H 2845 5527 50  0000 C CNN
+F 2 "" H 2840 5700 50  0001 C CNN
+F 3 "" H 2840 5700 50  0001 C CNN
+	1    2840 5700
+	-1   0    0    1   
+$EndComp
+Connection ~ 2840 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5DBE6B02
+P 8100 4150
+AR Path="/5DBE6B02" Ref="#PWR?"  Part="1" 
+AR Path="/5DC2722E/5DBE6B02" Ref="#PWR0409"  Part="1" 
+F 0 "#PWR0409" H 8100 3900 50  0001 C CNN
+F 1 "GND" H 8105 3977 50  0000 C CNN
+F 2 "" H 8100 4150 50  0001 C CNN
+F 3 "" H 8100 4150 50  0001 C CNN
+	1    8100 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 4150
+$Comp
+L Device:C C?
+U 1 1 5DBE9A28
+P 3320 6150
+AR Path="/5DBE9A28" Ref="C?"  Part="1" 
+AR Path="/5DC2722E/5DBE9A28" Ref="C405"  Part="1" 
+F 0 "C405" H 3190 6240 50  0000 L CNN
+F 1 "10uF" H 3090 6070 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3358 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B226KPHNNNE_C87996.pdf" H 3320 6150 50  0001 C CNN
+F 4 "C87996" H 3320 6150 50  0001 C CNN "LCSC"
+	1    3320 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 3320 6000
+Wire Wire Line
+	3320 6000 3460 6000
+$Comp
+L Device:C C?
+U 1 1 5DBEC357
+P 4280 6150
+AR Path="/5DBEC357" Ref="C?"  Part="1" 
+AR Path="/5DC2722E/5DBEC357" Ref="C406"  Part="1" 
+F 0 "C406" H 4150 6240 50  0000 L CNN
+F 1 "10uF" H 4050 6070 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4318 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B226KPHNNNE_C87996.pdf" H 4280 6150 50  0001 C CNN
+F 4 "C87996" H 4280 6150 50  0001 C CNN "LCSC"
+	1    4280 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4280 6000
+Wire Wire Line
+	4280 6000 4470 6000
+Wire Wire Line
+	3320 6300 3830 6300
+$Comp
+L power:GND #PWR?
+U 1 1 5DBEEA94
+P 3830 6300
+AR Path="/5DBEEA94" Ref="#PWR?"  Part="1" 
+AR Path="/5DC2722E/5DBEEA94" Ref="#PWR0410"  Part="1" 
+F 0 "#PWR0410" H 3830 6050 50  0001 C CNN
+F 1 "GND" H 3835 6127 50  0000 C CNN
+F 2 "" H 3830 6300 50  0001 C CNN
+F 3 "" H 3830 6300 50  0001 C CNN
+	1    3830 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3830 6300
+Wire Wire Line
+	3830 6300 4280 6300
 $EndSCHEMATC

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT3608
+F https://datasheet.lcsc.com/szlcsc/1811151539_XI-AN-Aerosemi-Tech-MT3608_C84817.pdf
+$ENDCMP
+#
+$CMP TC4056A
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/1132360/ADMOS/TC4056A.html
+$ENDCMP
+#
+#End Doc Library

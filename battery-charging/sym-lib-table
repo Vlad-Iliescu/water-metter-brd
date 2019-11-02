@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name battery)(type Legacy)(uri ${KIPRJMOD}/battery.lib)(options "")(descr ""))
+  (lib (name tc4056a)(type Legacy)(uri ${KIPRJMOD}/tc4056a.lib)(options "")(descr ""))
+)
