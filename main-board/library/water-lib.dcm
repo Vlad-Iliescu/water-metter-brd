@@ -17,6 +17,10 @@ D USB Connectors SMD RoHS
 F https://datasheet.lcsc.com/szlcsc/Jing-Extension-of-the-Electronic-Co-LCSC-MICRO-USB-5S-B-Type-horns-High-temperature_C10418.pdf
 $ENDCMP
 #
+$CMP C168692
+F https://datasheet.lcsc.com/szlcsc/1811141426_Jing-Extension-of-the-Electronic-Co-C168692_C168692.pdf
+$ENDCMP
+#
 $CMP CH340E
 D USB to Serial connector
 K usb serial
