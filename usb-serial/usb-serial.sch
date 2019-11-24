@@ -528,7 +528,7 @@ U 1 1 5DE11A19
 P 9660 2020
 F 0 "J1" H 9632 1902 50  0000 R CNN
 F 1 "Conn_01x06_Male" H 9632 1993 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Horizontal" H 9660 2020 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9660 2020 50  0001 C CNN
 F 3 "~" H 9660 2020 50  0001 C CNN
 	1    9660 2020
 	-1   0    0    1   
