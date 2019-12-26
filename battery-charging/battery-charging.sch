@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:battery-charging-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:USB_B_Micro J101
-U 1 1 5DB449B5
-P 1580 1770
-F 0 "J101" H 1637 2237 50  0000 C CNN
-F 1 "USB_B_Micro" H 1637 2146 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1730 1720 50  0001 C CNN
-F 3 "~" H 1730 1720 50  0001 C CNN
-	1    1580 1770
-	1    0    0    -1  
-$EndComp
 $Comp
 L battery:TC4056A U101
 U 1 1 5DB4BCFC
@@ -48,24 +38,6 @@ F 4 "C84817" H 4660 2130 50  0001 C CNN "LCSC"
 	1    4610 1930
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1880 1770
-NoConn ~ 1880 1870
-Wire Wire Line
-	1480 2170 1580 2170
-Wire Wire Line
-	1580 2170 1580 2240
-Connection ~ 1580 2170
-$Comp
-L power:GND #PWR0101
-U 1 1 5DB4CB22
-P 1580 2240
-F 0 "#PWR0101" H 1580 1990 50  0001 C CNN
-F 1 "GND" H 1585 2067 50  0000 C CNN
-F 2 "" H 1580 2240 50  0001 C CNN
-F 3 "" H 1580 2240 50  0001 C CNN
-	1    1580 2240
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R101
 U 1 1 5DB4D24E
@@ -77,8 +49,6 @@ F 3 "~" H 2150 1570 50  0001 C CNN
 	1    2150 1570
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1880 1570 1930 1570
 $Comp
 L Device:C C101
 U 1 1 5DB4E1DD
@@ -106,7 +76,6 @@ F 3 "" H 2560 1570 50  0001 C CNN
 	1    2560 1570
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1880 1970
 $Comp
 L power:GND #PWR0103
 U 1 1 5DB4F7C7
@@ -263,26 +232,25 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR0110
 U 1 1 5DB57939
-P 1930 1570
-F 0 "#PWR0110" H 1930 1420 50  0001 C CNN
-F 1 "VCC" H 1947 1743 50  0000 C CNN
-F 2 "" H 1930 1570 50  0001 C CNN
-F 3 "" H 1930 1570 50  0001 C CNN
-	1    1930 1570
+P 1960 1570
+F 0 "#PWR0110" H 1960 1420 50  0001 C CNN
+F 1 "VCC" H 1977 1743 50  0000 C CNN
+F 2 "" H 1960 1570 50  0001 C CNN
+F 3 "" H 1960 1570 50  0001 C CNN
+	1    1960 1570
 	1    0    0    -1  
 $EndComp
-Connection ~ 1930 1570
 Wire Wire Line
-	1930 1570 2000 1570
+	1930 1570 1960 1570
 $Comp
 L power:VCC #PWR0111
 U 1 1 5DB58014
-P 5930 2860
-F 0 "#PWR0111" H 5930 2710 50  0001 C CNN
-F 1 "VCC" V 5947 2988 50  0000 L CNN
-F 2 "" H 5930 2860 50  0001 C CNN
-F 3 "" H 5930 2860 50  0001 C CNN
-	1    5930 2860
+P 5930 2830
+F 0 "#PWR0111" H 5930 2680 50  0001 C CNN
+F 1 "VCC" V 5947 2958 50  0000 L CNN
+F 2 "" H 5930 2830 50  0001 C CNN
+F 3 "" H 5930 2830 50  0001 C CNN
+	1    5930 2830
 	0    1    1    0   
 $EndComp
 $Comp
@@ -329,11 +297,6 @@ F 3 "~" H 5780 3000 50  0001 C CNN
 	1    5780 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5930 2740 5930 2860
-Connection ~ 5930 2860
-Wire Wire Line
-	5930 2860 5930 3000
 Wire Wire Line
 	5630 2740 5570 2740
 Wire Wire Line
@@ -562,4 +525,101 @@ F 3 "~" H 2560 1570 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 2560 1570
+$Comp
+L water-lib:C168692 U103
+U 1 1 5DEF8B80
+P 1390 2370
+F 0 "U103" H 1390 3591 50  0000 C CNN
+F 1 "C168692" H 1390 3500 50  0000 C CNN
+F 2 "water-lib:C168692" H 1240 2370 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811141426_Jing-Extension-of-the-Electronic-Co-C168692_C168692.pdf" H 1240 2370 50  0001 C CNN
+F 4 "C168692" H 1390 3409 50  0000 C CNN "LCSC"
+	1    1390 2370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	940  1870 940  1420
+Wire Wire Line
+	940  1420 1340 1420
+Wire Wire Line
+	1840 1420 1840 1870
+Connection ~ 1340 1420
+Wire Wire Line
+	1340 1420 1440 1420
+Connection ~ 1440 1420
+Wire Wire Line
+	1440 1420 1840 1420
+Wire Wire Line
+	940  2670 940  2620
+Wire Wire Line
+	940  2620 1840 2620
+Wire Wire Line
+	1840 2620 1840 2670
+Wire Wire Line
+	1930 1570 1930 2620
+Wire Wire Line
+	1930 2620 1840 2620
+Connection ~ 1840 2620
+Wire Wire Line
+	940  2970 940  3420
+Wire Wire Line
+	940  3420 1340 3420
+Wire Wire Line
+	1840 3420 1840 2970
+Connection ~ 1340 3420
+Wire Wire Line
+	1340 3420 1440 3420
+Connection ~ 1440 3420
+Wire Wire Line
+	1440 3420 1840 3420
+NoConn ~ 940  1970
+NoConn ~ 940  2070
+NoConn ~ 940  2170
+NoConn ~ 940  2270
+NoConn ~ 940  2370
+NoConn ~ 940  2470
+NoConn ~ 940  2570
+NoConn ~ 940  2770
+NoConn ~ 940  2870
+NoConn ~ 1840 2870
+NoConn ~ 1840 2770
+NoConn ~ 1840 2570
+NoConn ~ 1840 2470
+NoConn ~ 1840 2370
+NoConn ~ 1840 2270
+NoConn ~ 1840 2170
+NoConn ~ 1840 2070
+NoConn ~ 1840 1970
+$Comp
+L power:GND #PWR0101
+U 1 1 5DF1FDAC
+P 1840 3420
+F 0 "#PWR0101" H 1840 3170 50  0001 C CNN
+F 1 "GND" H 1845 3247 50  0000 C CNN
+F 2 "" H 1840 3420 50  0001 C CNN
+F 3 "" H 1840 3420 50  0001 C CNN
+	1    1840 3420
+	1    0    0    -1  
+$EndComp
+Connection ~ 1840 3420
+$Comp
+L power:GND #PWR0114
+U 1 1 5DF2074A
+P 940 1420
+F 0 "#PWR0114" H 940 1170 50  0001 C CNN
+F 1 "GND" H 945 1247 50  0000 C CNN
+F 2 "" H 940 1420 50  0001 C CNN
+F 3 "" H 940 1420 50  0001 C CNN
+	1    940  1420
+	-1   0    0    1   
+$EndComp
+Connection ~ 940  1420
+Connection ~ 1960 1570
+Wire Wire Line
+	1960 1570 2000 1570
+Wire Wire Line
+	5930 2740 5930 2830
+Connection ~ 5930 2830
+Wire Wire Line
+	5930 2830 5930 3000
 $EndSCHEMATC
