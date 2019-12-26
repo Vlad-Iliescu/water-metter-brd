@@ -15,18 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L water-lib:C168692 U1
-U 1 1 5DD9AAB4
-P 3320 3400
-F 0 "U1" H 3320 4621 50  0000 C CNN
-F 1 "C168692" H 3320 4530 50  0000 C CNN
-F 2 "water-lib:C168692" H 3170 3400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811141426_Jing-Extension-of-the-Electronic-Co-C168692_C168692.pdf" H 3170 3400 50  0001 C CNN
-F 4 "C168692" H 3320 4439 50  0000 C CNN "LCSC"
-	1    3320 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L water-lib:1206L025YR F1
 U 1 1 5DDA21CC
 P 3200 1720
@@ -38,92 +26,6 @@ F 4 "C99561" V 3050 1720 50  0001 C CNN "LCSC"
 	1    3200 1720
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2870 2900 2870 2450
-Wire Wire Line
-	2870 2450 3270 2450
-Wire Wire Line
-	3770 2450 3770 2900
-Connection ~ 3270 2450
-Wire Wire Line
-	3270 2450 3370 2450
-Connection ~ 3370 2450
-Wire Wire Line
-	3370 2450 3620 2450
-$Comp
-L power:GND #PWR02
-U 1 1 5DDA3655
-P 3620 2450
-F 0 "#PWR02" H 3620 2200 50  0001 C CNN
-F 1 "GND" H 3625 2277 50  0000 C CNN
-F 2 "" H 3620 2450 50  0001 C CNN
-F 3 "" H 3620 2450 50  0001 C CNN
-	1    3620 2450
-	1    0    0    -1  
-$EndComp
-Connection ~ 3620 2450
-Wire Wire Line
-	3620 2450 3770 2450
-Wire Wire Line
-	2870 4000 2870 4450
-Wire Wire Line
-	2870 4450 3270 4450
-Wire Wire Line
-	3770 4450 3770 4000
-Connection ~ 3270 4450
-Wire Wire Line
-	3270 4450 3370 4450
-Connection ~ 3370 4450
-Wire Wire Line
-	3370 4450 3770 4450
-$Comp
-L power:GND #PWR01
-U 1 1 5DDA4C21
-P 2870 4450
-F 0 "#PWR01" H 2870 4200 50  0001 C CNN
-F 1 "GND" H 2875 4277 50  0000 C CNN
-F 2 "" H 2870 4450 50  0001 C CNN
-F 3 "" H 2870 4450 50  0001 C CNN
-	1    2870 4450
-	1    0    0    -1  
-$EndComp
-Connection ~ 2870 4450
-NoConn ~ 2870 3000
-NoConn ~ 2870 3100
-NoConn ~ 3770 3000
-NoConn ~ 3770 3100
-NoConn ~ 3770 3300
-NoConn ~ 2870 3300
-NoConn ~ 3770 3600
-NoConn ~ 2870 3600
-NoConn ~ 3770 3800
-NoConn ~ 3770 3900
-NoConn ~ 2870 3900
-NoConn ~ 2870 3800
-Wire Wire Line
-	3770 3200 3850 3200
-Wire Wire Line
-	3850 3200 3850 3700
-Wire Wire Line
-	3850 3700 3770 3700
-Wire Wire Line
-	2870 3200 2810 3200
-Wire Wire Line
-	2810 3200 2810 3700
-Wire Wire Line
-	2810 3700 2870 3700
-Text Label 3850 3200 0    50   ~ 0
-VCC
-Text Label 2810 3700 1    50   ~ 0
-VCC
-Wire Wire Line
-	2870 3400 2560 3400
-Wire Wire Line
-	2870 3500 2560 3500
-Text Label 2560 3400 0    50   ~ 0
-D+
-Text Label 2560 3500 0    50   ~ 0
-D-
 Wire Wire Line
 	3050 1720 2860 1720
 Wire Wire Line
@@ -181,16 +83,9 @@ Wire Wire Line
 	4040 1720 4160 1720
 Wire Wire Line
 	4460 1720 4570 1720
-Wire Wire Line
-	3850 3200 3990 3200
-Connection ~ 3850 3200
-Wire Wire Line
-	3770 3400 4060 3400
-Wire Wire Line
-	3770 3500 4050 3500
-Text Label 3940 3500 0    50   ~ 0
+Text Label 2490 3750 0    50   ~ 0
 D+
-Text Label 3950 3400 0    50   ~ 0
+Text Label 2490 3850 0    50   ~ 0
 D-
 $Comp
 L water-lib:HT7333-A U2
@@ -587,15 +482,112 @@ F 3 "~" H 3630 1720 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
+L water-lib:C167321 U101
+U 1 1 5E0542E8
+P 3320 3750
+F 0 "U101" H 3320 4971 50  0000 C CNN
+F 1 "C167321" H 3320 4880 50  0000 C CNN
+F 2 "water-lib:C167321" H 3870 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811101520_Jing-Extension-of-the-Electronic-Co-C167321_C167321.pdf" H 3170 3750 50  0001 C CNN
+F 4 "C167321" H 3320 4789 50  0000 C CNN "LCSC"
+	1    3320 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2870 3250 2870 2800
+Wire Wire Line
+	2870 2800 3270 2800
+Wire Wire Line
+	3770 2800 3770 3250
+Connection ~ 3270 2800
+Wire Wire Line
+	3270 2800 3370 2800
+Connection ~ 3370 2800
+Wire Wire Line
+	3370 2800 3630 2800
+$Comp
+L power:GND #PWR0101
+U 1 1 5E05A6BE
+P 3630 2800
+F 0 "#PWR0101" H 3630 2550 50  0001 C CNN
+F 1 "GND" H 3635 2627 50  0000 C CNN
+F 2 "" H 3630 2800 50  0001 C CNN
+F 3 "" H 3630 2800 50  0001 C CNN
+	1    3630 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3630 2800
+Wire Wire Line
+	3630 2800 3770 2800
+$Comp
 L power:PWR_FLAG #FLG0102
-U 1 1 5DE2A20F
-P 2870 2450
-F 0 "#FLG0102" H 2870 2525 50  0001 C CNN
-F 1 "PWR_FLAG" V 2870 2577 50  0000 L CNN
-F 2 "" H 2870 2450 50  0001 C CNN
-F 3 "~" H 2870 2450 50  0001 C CNN
-	1    2870 2450
+U 1 1 5E05AF5E
+P 2870 2800
+F 0 "#FLG0102" H 2870 2875 50  0001 C CNN
+F 1 "PWR_FLAG" V 2870 2927 50  0000 L CNN
+F 2 "" H 2870 2800 50  0001 C CNN
+F 3 "~" H 2870 2800 50  0001 C CNN
+	1    2870 2800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2870 2450
+Connection ~ 2870 2800
+Wire Wire Line
+	2870 4050 2810 4050
+Wire Wire Line
+	2810 4050 2810 3550
+Wire Wire Line
+	2810 3550 2870 3550
+Wire Wire Line
+	3840 4050 3770 4050
+Wire Wire Line
+	3840 3550 3770 3550
+Wire Wire Line
+	3840 3550 3840 4050
+Wire Wire Line
+	2870 4350 2870 4800
+Wire Wire Line
+	2870 4800 3270 4800
+Wire Wire Line
+	3770 4800 3770 4350
+Connection ~ 3270 4800
+Wire Wire Line
+	3270 4800 3370 4800
+Connection ~ 3370 4800
+Wire Wire Line
+	3370 4800 3770 4800
+$Comp
+L power:GND #PWR0102
+U 1 1 5E0663CE
+P 2870 4800
+F 0 "#PWR0102" H 2870 4550 50  0001 C CNN
+F 1 "GND" H 2875 4627 50  0000 C CNN
+F 2 "" H 2870 4800 50  0001 C CNN
+F 3 "" H 2870 4800 50  0001 C CNN
+	1    2870 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2870 4800
+Text Label 3840 3550 0    50   ~ 0
+VCC
+Wire Wire Line
+	3840 3550 4000 3550
+Connection ~ 3840 3550
+Wire Wire Line
+	2870 3750 2490 3750
+Wire Wire Line
+	2870 3850 2490 3850
+Wire Wire Line
+	3770 3750 4100 3750
+Wire Wire Line
+	3770 3850 4100 3850
+Text Label 4000 3850 0    50   ~ 0
+D+
+Text Label 4000 3750 0    50   ~ 0
+D-
+NoConn ~ 3770 3650
+NoConn ~ 3770 3950
+NoConn ~ 2870 3950
+NoConn ~ 2870 3650
+Text Label 2810 3550 2    50   ~ 0
+VCC
 $EndSCHEMATC
