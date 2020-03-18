@@ -400,9 +400,9 @@ Wire Wire Line
 Wire Wire Line
 	7090 5710 7520 5710
 Text Label 7370 4750 0    50   ~ 0
-IO0
-Text Label 7410 5710 0    50   ~ 0
 EN
+Text Label 7410 5710 0    50   ~ 0
+IO0
 $Comp
 L Device:Q_NPN_BCE Q2
 U 1 1 5DE0BF64
@@ -467,9 +467,9 @@ F 3 "" H 9180 1720 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9180 2120 0    50   ~ 0
-IO0
-Text Label 9180 2220 0    50   ~ 0
 EN
+Text Label 9180 2220 0    50   ~ 0
+IO0
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DE22CFE
